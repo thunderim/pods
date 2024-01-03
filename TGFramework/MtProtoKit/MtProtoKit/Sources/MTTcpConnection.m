@@ -1679,6 +1679,7 @@ struct ctr_state {
 }
 
 - (void)addReadData:(NSData *)data {
+    NSLog(@"=======socket收到了数据:%ld长度", data.length);
     if (_pendingReceiveData != nil && _pendingReceiveData.length == data.length) {
         int tag = _pendingReceiveData.tag;
         _pendingReceiveData = nil;
