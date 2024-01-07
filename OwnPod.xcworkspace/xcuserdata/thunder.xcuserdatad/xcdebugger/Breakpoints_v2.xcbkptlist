@@ -3,4 +3,98 @@
    uuid = "3A5872A1-8267-40CF-97BC-265F160FCFD2"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "E4566E82-553F-4401-B6AA-FA3855E886F1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8C8389F-6CE2-443C-B262-0B286D971C48"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TGFramework/LegacyComponents/LegacyComponents/Sources/TGCameraInterfaceAssets.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "TGCameraEncodeText(string, key)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C751741-531D-41F7-AF64-5587135E0A7A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TGFramework/LegacyComponents/LegacyComponents/Sources/TGCameraModeControl.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "-_createButtonForMode:title:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "78384BE2-99E8-4071-8D70-07084F3C727E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TGFramework/TelegramCore/TelegramCore/Sources/TelegramEngine/Localization/Localizations.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
+            landmarkName = "_internal_downloadAndApplyLocalization(accountManager:postbox:network:languageCode:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "78384BE2-99E8-4071-8D70-07084F3C727E - d6f11a2a268ee3ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;TelegramCore.Localization&gt;) -&gt; SwiftSignalKit.Signal&lt;(), TelegramCore.DownloadAndApplyLocalizationError&gt; in closure #2 (TelegramCore.LocalizationInfo) -&gt; SwiftSignalKit.Signal&lt;(), TelegramCore.DownloadAndApplyLocalizationError&gt; in TelegramCore._internal_downloadAndApplyLocalization(accountManager: TelegramCore.AccountManager&lt;TelegramCore.TelegramAccountManagerTypes&gt;, postbox: PostboxKit.Postbox, network: TelegramCore.Network, languageCode: Swift.String) -&gt; SwiftSignalKit.Signal&lt;(), TelegramCore.DownloadAndApplyLocalizationError&gt;"
+                  moduleName = "TelegramCore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thunder/Library/OwnPod/TGFramework/TelegramCore/TelegramCore/Sources/TelegramEngine/Localization/Localizations.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "458">
+               </Location>
+               <Location
+                  uuid = "78384BE2-99E8-4071-8D70-07084F3C727E - 9c7475e5e4d8b5f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (TelegramCore.AccountManagerModifier&lt;TelegramCore.TelegramAccountManagerTypes&gt;) -&gt; SwiftSignalKit.Signal&lt;(), TelegramCore.DownloadAndApplyLocalizationError&gt; in closure #2 (Swift.Array&lt;TelegramCore.Localization&gt;) -&gt; SwiftSignalKit.Signal&lt;(), TelegramCore.DownloadAndApplyLocalizationError&gt; in closure #2 (TelegramCore.LocalizationInfo) -&gt; SwiftSignalKit.Signal&lt;(), TelegramCore.DownloadAndApplyLocalizationError&gt; in TelegramCore._internal_downloadAndApplyLocalization(accountManager: TelegramCore.AccountManager&lt;TelegramCore.TelegramAccountManagerTypes&gt;, postbox: PostboxKit.Postbox, network: TelegramCore.Network, languageCode: Swift.String) -&gt; SwiftSignalKit.Signal&lt;(), TelegramCore.DownloadAndApplyLocalizationError&gt;"
+                  moduleName = "TelegramCore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/thunder/Library/OwnPod/TGFramework/TelegramCore/TelegramCore/Sources/TelegramEngine/Localization/Localizations.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "489">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

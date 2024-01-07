@@ -56,12 +56,14 @@ static NSString *TGCameraEncodeText(NSString *string, int key)
 
 + (UIFont *)regularFontOfSize:(CGFloat)size
 {
-    return [UIFont fontWithName:TGCameraEncodeText(@"TGDbnfsb.Sfhvmbs", -1) size:size];
+    return [UIFont systemFontOfSize:size];
+//    return [UIFont fontWithName:TGCameraEncodeText(@"TGDbnfsb.Sfhvmbs", -1) size:size];
 }
 
 + (UIFont *)boldFontOfSize:(CGFloat)size
 {
-    return [UIFont fontWithName:TGCameraEncodeText(@"TGDbnfsb.Tfnjcpme", -1) size:size];
+    return [UIFont systemFontOfSize:size];
+//    return [UIFont fontWithName:TGCameraEncodeText(@"TGDbnfsb.Tfnjcpme", -1) size:size];
 }
 
 @end
