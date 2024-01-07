@@ -408,6 +408,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		59501EC82B4AAC1400BFDA86 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		59501EC92B4AAC1500BFDA86 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		59501ECA2B4AAC1700BFDA86 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		598FB0482B3AC3B200ABC705 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		598FB04A2B3AC3BE00ABC705 /* PresentationStrings.data */ = {isa = PBXFileReference; lastKnownFileType = file; path = PresentationStrings.data; sourceTree = "<group>"; };
 		598FB0532B3AC3FE00ABC705 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -1400,6 +1403,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 5990156C2B2AA09E00575497;
 			productRefGroup = 599015762B2AA09E00575497 /* Products */;
@@ -1872,6 +1876,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				598FB0532B3AC3FE00ABC705 /* en */,
+				59501ECA2B4AAC1700BFDA86 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1880,6 +1885,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5990157F2B2AA09E00575497 /* Base */,
+				59501EC82B4AAC1400BFDA86 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1888,6 +1894,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				599015842B2AA0A000575497 /* Base */,
+				59501EC92B4AAC1500BFDA86 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1899,6 +1906,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -1959,6 +1967,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -2025,8 +2034,12 @@
 				GCC_INPUT_FILETYPE = automatic;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OwnPod/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Meetalk++";
+				INFOPLIST_KEY_CFBundleDisplayName = OwnPod;
+				INFOPLIST_KEY_NSCameraUsageDescription = "相机";
 				INFOPLIST_KEY_NSContactsUsageDescription = "hello world";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "麦克风";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "保存图片";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Privacy";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -2064,8 +2077,12 @@
 				GCC_INPUT_FILETYPE = automatic;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OwnPod/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Meetalk++";
+				INFOPLIST_KEY_CFBundleDisplayName = OwnPod;
+				INFOPLIST_KEY_NSCameraUsageDescription = "相机";
 				INFOPLIST_KEY_NSContactsUsageDescription = "hello world";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "麦克风";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "保存图片";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Privacy";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
